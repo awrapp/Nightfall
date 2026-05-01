@@ -29,4 +29,4 @@ dnf5 -y copr disable fuddlesworth/PlasmaZones
 systemctl enable podman.socket
 
 ### awrapp >>>
-systemctl enable plasmazones.service
+#systemctl enable
