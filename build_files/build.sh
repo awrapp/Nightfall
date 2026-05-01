@@ -19,6 +19,14 @@ dnf5 install -y tmux
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 
+### awrapp >>>
+dnf5 -y copr enable fuddlesworth/PlasmaZones
+dnf5 -y install plasmazones
+dnf5 -y copr disable fuddlesworth/PlasmaZones
+
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
+
+### awrapp >>>
+systemctl enable plasmazones.service
