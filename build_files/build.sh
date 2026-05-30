@@ -20,6 +20,9 @@ dnf5 install -y haruna inkscape krita gimp godot
 # dnf5 -y copr disable ublue-os/staging
 
 ## awrapp >>
+### Change shell to fish and install starship
+#dnf5 install -y fish chsh
+
 ### PlasmaZones for excellent window management
 dnf5 -y copr enable fuddlesworth/PlasmaZones
 dnf5 -y install plasmazones
