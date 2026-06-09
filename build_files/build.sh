@@ -42,7 +42,7 @@ dnf5 -y copr disable fuddlesworth/PlasmaZones
 # https://github.com/xarbit/plasma6-applet-appgrid
 dnf5 -y copr enable scujas/plasma-applet-appgrid
 dnf5 -y install plasma-applet-appgrid
-dun5 -y copy disable scujas/plasma-applet-appgrid
+dnf5 -y copy disable scujas/plasma-applet-appgrid
 
 ### FancyTasksNG for better task manager
 # https://github.com/DayDve/FancyTasksNG
