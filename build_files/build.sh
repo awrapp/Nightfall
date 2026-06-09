@@ -28,9 +28,9 @@ dnf5 remove -y lutris
 
 ### Firefox-dev
 # https://copr.fedorainfracloud.org/coprs/the4runner/firefox-dev/
-dnf5 -y copr enable the4runner/firefox-dev
-dnf5 -y install firefox-dev
-dnf5 -y copr disable the4runner/firefox-dev
+#dnf5 -y copr enable the4runner/firefox-dev
+#dnf5 -y install firefox-dev
+#dnf5 -y copr disable the4runner/firefox-dev
 
 ### PlasmaZones for excellent window management
 # https://github.com/fuddlesworth/PlasmaZones
